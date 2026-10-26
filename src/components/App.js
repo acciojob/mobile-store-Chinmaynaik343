@@ -7,10 +7,10 @@ import {
   Link
 } from "react-router-dom";
 
-import initialProducts from "./data";
-import ProductList from "./components/ProductList";
-import ProductDetails from "./components/ProductDetails";
-import AdminPanel from "./components/AdminPanel";
+import initialProducts from "./data.js";
+import ProductList from "./ProductList.js";
+import ProductDetails from "./ProductDetails.js";
+import AdminPanel from "./AdminPanel.js";
 import "./styles/App.css";
 
 function App() {
